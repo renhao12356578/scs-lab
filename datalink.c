@@ -7,7 +7,7 @@
 /* 协议参数 */
 #define DATA_TIMER 2000              // 数据帧的超时时间(毫秒)
 #define ACK_TIMER 300                // 确认帧ACK的超时时间(毫秒)
-#define MAX_SEQ 63                   // 最大帧序号
+#define MAX_SEQ 63                   // 最大帧序号  63
 #define NR_BUFS ((MAX_SEQ + 1) / 2)  // 滑动窗口大小
 
 
@@ -235,12 +235,13 @@ int main(int argc, char** argv) {
                                           frame_expected, out_buf);
                 }
                 
-                // 处理帧中的确认信息(累计确认)
+ 
                 while (between(ack_expected, f.ack, next_frame_to_send)) {
                     nbuffered--;
                     stop_timer(ack_expected);
                     advance_sequence_number(&ack_expected);
                 }
+
                 break;
 
             case DATA_TIMEOUT:

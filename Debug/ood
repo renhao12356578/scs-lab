@@ -1,0 +1,243 @@
+000.000 =============================================================
+000.000                     Station A                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "ood", TCP port 59144, debug mask 0x03
+000.000 Station A is waiting for station B on TCP port 59144 ... Done.
+000.183 New epoch: Wed May 14 00:02:15 2025
+000.183 =================================================================
+000.183 
+000.183 Designed by Ren Hao, build: May 13 2025  22:16:17
+000.183 Send DATA 0 63, ID 10000
+000.449 Send DATA 1 63, ID 10001
+000.708 Send DATA 2 63, ID 10002
+000.754 Recv DATA 0 63, ID 20000
+000.755 Put packet to network layer seq:0, ID: 20000
+000.954 Send DATA 3 0, ID 10003
+001.017 Recv DATA 1 63, ID 20001
+001.020 Put packet to network layer seq:1, ID: 20001
+001.232 Send DATA 4 1, ID 10004
+001.264 Recv DATA 2 63, ID 20002
+001.265 Put packet to network layer seq:2, ID: 20002
+001.495 Send DATA 5 2, ID 10005
+001.526 **** Receiver Error, Bad CRC Checksum
+001.527 Send NAK  3
+001.757 Send DATA 6 2, ID 10006
+001.788 Recv DATA 4 1, ID 20004
+002.034 Send DATA 7 2, ID 10007
+002.064 Recv DATA 5 2, ID 20005
+002.294 Recv DATA 6 3, ID 20006
+002.295 Send DATA 8 2, ID 10008
+002.570 Send DATA 9 2, ID 10009
+002.600 Recv DATA 7 4, ID 20007
+002.815 Send DATA 10 2, ID 10010
+002.861 Recv DATA 3 5, ID 20003
+002.861 Put packet to network layer seq:3, ID: 20003
+002.862 .... 4 packets received, 3433 bps, 42.92%, Err 1 (4.7e-05)
+002.862 Put packet to network layer seq:4, ID: 20004
+002.862 Put packet to network layer seq:5, ID: 20005
+002.862 Put packet to network layer seq:6, ID: 20006
+002.862 Put packet to network layer seq:7, ID: 20007
+003.074 Send DATA 11 7, ID 10011
+003.122 Recv DATA 8 6, ID 20008
+003.122 Put packet to network layer seq:8, ID: 20008
+003.338 Send DATA 12 8, ID 10012
+003.399 Recv DATA 9 7, ID 20009
+003.399 Put packet to network layer seq:9, ID: 20009
+003.613 Send DATA 13 9, ID 10013
+003.645 Recv DATA 10 8, ID 20010
+003.646 Put packet to network layer seq:10, ID: 20010
+003.877 Send DATA 14 10, ID 10014
+003.937 Recv DATA 11 9, ID 20011
+003.938 Put packet to network layer seq:11, ID: 20011
+004.136 Send DATA 15 11, ID 10015
+004.167 Recv DATA 12 10, ID 20012
+004.168 Put packet to network layer seq:12, ID: 20012
+004.398 Send DATA 16 12, ID 10016
+004.429 Recv DATA 13 11, ID 20013
+004.429 Put packet to network layer seq:13, ID: 20013
+004.672 Send DATA 17 13, ID 10017
+004.703 Recv DATA 14 12, ID 20014
+004.703 Put packet to network layer seq:14, ID: 20014
+004.933 Recv DATA 15 13, ID 20015
+004.933 Put packet to network layer seq:15, ID: 20015
+004.933 .... 16 packets received, 7350 bps, 91.88%, Err 1 (2.6e-05)
+004.934 Send DATA 18 15, ID 10018
+005.193 Send DATA 19 15, ID 10019
+005.269 Recv DATA 16 14, ID 20016
+005.271 Put packet to network layer seq:16, ID: 20016
+005.454 Send DATA 20 16, ID 10020
+005.500 Recv DATA 17 15, ID 20017
+005.500 Put packet to network layer seq:17, ID: 20017
+005.718 Send DATA 21 17, ID 10021
+005.780 Recv DATA 18 16, ID 20018
+005.782 Put packet to network layer seq:18, ID: 20018
+005.979 Send DATA 22 18, ID 10022
+006.057 Recv DATA 19 17, ID 20019
+006.058 Put packet to network layer seq:19, ID: 20019
+006.257 Send DATA 23 19, ID 10023
+006.318 Recv DATA 20 18, ID 20020
+006.320 Put packet to network layer seq:20, ID: 20020
+006.518 Recv DATA 21 19, ID 20021
+006.521 Put packet to network layer seq:21, ID: 20021
+006.522 Send DATA 24 21, ID 10024
+006.779 Send DATA 25 21, ID 10025
+006.811 Recv DATA 22 20, ID 20022
+006.811 Put packet to network layer seq:22, ID: 20022
+007.038 Send DATA 26 22, ID 10026
+007.102 Recv DATA 23 21, ID 20023
+007.102 Put packet to network layer seq:23, ID: 20023
+007.102 .... 24 packets received, 7417 bps, 92.71%, Err 1 (1.8e-05)
+007.301 Send DATA 27 23, ID 10027
+007.332 Recv DATA 24 22, ID 20024
+007.332 Put packet to network layer seq:24, ID: 20024
+007.579 Send DATA 28 24, ID 10028
+007.595 Recv DATA 25 23, ID 2007 25, ID 20027
+007.626 Recv DATA 26 22, ID 10026
+007.626 Put packet to network layer seq:26, ID: 10026
+007.839 Send DATA 28 26, ID 20028
+007.871 Recv DATA 27 23, ID 10027
+007.871 Put packet to network layer seq:27, ID: 10027
+008.090 Send DATA 29 27, ID 20029
+008.151 Recv DATA 28 24, ID 10028
+008.152 Put packet to network layer seq:28, ID: 10028
+008.354 Send DATA 30 28, ID 20030
+008.429 Recv DATA 29 26, ID 10029
+008.430 Put packet to network layer seq:29, ID: 10029
+008.618 Send DATA 31 29, ID 20031
+008.664 Recv DATA 30 26, ID 10030
+008.665 Put packet to network layer seq:30, ID: 10030
+008.878 Send DATA 32 30, ID 20032
+008.940 Recv DATA 31 27, ID 10031
+008.941 Put packet to network layer seq:31, ID: 10031
+008.941 .... 32 packets received, 7714 bps, 96.42%, Err 0 (0.0e+00)
+009.154 Send DATA 33 31, ID 20033
+009.215 Recv DATA 32 28, ID 10032
+009.216 Put packet to network layer seq:32, ID: 10032
+009.400 Send DATA 34 32, ID 20034
+009.476 Recv DATA 33 29, ID 10033
+009.477 Put packet to network layer seq:33, ID: 10033
+009.689 Send DATA 35 33, ID 20035
+009.748 Recv DATA 34 30, ID 10034
+009.750 Put packet to network layer seq:34, ID: 10034
+009.930 Send DATA 36 34, ID 20036
+010.037 Recv DATA 35 31, ID 10035
+010.037 Put packet to network layer seq:35, ID: 10035
+010.204 Send DATA 37 35, ID 20037
+010.281 Recv DATA 36 32, ID 10036
+010.281 Put packet to network layer seq:36, ID: 10036
+010.479 Send DATA 38 36, ID 20038
+010.511 Recv DATA 37 33, ID 10037
+010.512 Put packet to network layer seq:37, ID: 10037
+010.724 Send DATA 39 37, ID 20039
+010.784 Recv DATA 38 34, ID 10038
+010.785 Put packet to network layer seq:38, ID: 10038
+010.998 Send DATA 40 38, ID 20040
+011.059 Recv DATA 39 35, ID 10039
+011.059 Put packet to network layer seq:39, ID: 10039
+011.059 .... 40 packets received, 7717 bps, 96.47%, Err 0 (0.0e+00)
+011.257 Send DATA 41 39, ID 20041
+011.316 Recv DATA 40 36, ID 10040
+011.317 Put packet to network layer seq:40, ID: 10040
+011.516 Send DATA 42 40, ID 20042
+011.578 Recv DATA 41 37, ID 10041
+011.579 Put packet to network layer seq:41, ID: 10041
+011.777 Send DATA 43 41, ID 20043
+011.853 Recv DATA 42 38, ID 10042
+011.853 Put packet to network layer seq:42, ID: 10042
+012.050 Send DATA 44 42, ID 20044
+012.127 Recv DATA 43 40, ID 10043
+012.127 Put packet to network layer seq:43, ID: 10043
+012.329 Send DATA 45 43, ID 20045
+012.359 Recv DATA 44 40, ID 10044
+012.360 Put packet to network layer seq:44, ID: 10044
+012.573 Send DATA 46 44, ID 20046
+012.665 Recv DATA 45 42, ID 10045
+012.666 Put packet to network layer seq:45, ID: 10045
+012.834 Send DATA 47 45, ID 20047
+012.925 Recv DATA 46 42, ID 10046
+012.925 Put packet to network layer seq:46, ID: 10046
+013.107 Send DATA 48 46, ID 20048
+013.200 Recv DATA 47 44, ID 10047
+013.201 Put packet to network layer seq:47, ID: 10047
+013.201 .... 48 packets received, 7706 bps, 96.33%, Err 0 (0.0e+00)
+013.371 Send DATA 49 47, ID 20049
+013.432 Recv DATA 48 44, ID 10048
+013.434 Put packet to network layer seq:48, ID: 10048
+013.648 Send DATA 50 48, ID 20050
+013.724 Recv DATA 49 45, ID 10049
+013.725 Put packet to network layer seq:49, ID: 10049
+013.896 Send DATA 51 49, ID 20051
+013.957 Recv DATA 50 47, ID 10050
+013.957 Put packet to network layer seq:50, ID: 10050
+014.155 Send DATA 52 50, ID 20052
+014.232 Recv DATA 51 47, ID 10051
+014.232 Put packet to network layer seq:51, ID: 10051
+014.417 Send DATA 53 51, ID 20053
+014.494 Recv DATA 52 49, ID 10052
+014.495 Put packet to network layer seq:52, ID: 10052
+014.709 Send DATA 54 52, ID 20054
+014.740 Recv DATA 53 49, ID 10053
+014.740 Put packet to network layer seq:53, ID: 10053
+014.970 Send DATA 55 53, ID 20055
+015.031 Recv DATA 54 50, ID 10054
+015.032 Put packet to network layer seq:54, ID: 10054
+015.229 Send DATA 56 54, ID 20056
+015.289 Recv DATA 55 51, ID 10055
+015.290 Put packet to network layer seq:55, ID: 10055
+015.290 .... 56 packets received, 7726 bps, 96.57%, Err 0 (0.0e+00)
+015.501 Send DATA 57 55, ID 20057
+015.561 Recv DATA 56 53, ID 10056
+015.561 Put packet to network layer seq:56, ID: 10056
+015.756 Send DATA 58 56, ID 20058
+015.846 Recv DATA 57 53, ID 10057
+015.847 Put packet to network layer seq:57, ID: 10057
+016.000 Send DATA 59 57, ID 20059
+016.091 Recv DATA 58 54, ID 10058
+016.092 Put packet to network layer seq:58, ID: 10058
+016.287 Send DATA 60 58, ID 20060
+016.347 Recv DATA 59 55, ID 10059
+016.349 Put packet to network layer seq:59, ID: 10059
+016.546 Send DATA 61 59, ID 20061
+016.636 Recv DATA 60 56, ID 10060
+016.637 Put packet to network layer seq:60, ID: 10060
+016.819 Send DATA 62 60, ID 20062
+016.882 Recv DATA 61 57, ID 10061
+016.883 Put packet to network layer seq:61, ID: 10061
+017.080 Send DATA 63 61, ID 20063
+017.126 Recv DATA 62 58, ID 10062
+017.126 Put packet to network layer seq:62, ID: 10062
+017.340 Send DATA 0 62, ID 20064
+017.371 Recv DATA 63 59, ID 10063
+017.371 Put packet to network layer seq:63, ID: 10063
+017.371 .... 64 packets received, 7743 bps, 96.79%, Err 0 (0.0e+00)
+017.586 Send DATA 1 63, ID 20065
+017.663 Recv DATA 0 61, ID 10064
+017.664 Put packet to network layer seq:0, ID: 10064
+017.861 Send DATA 2 0, ID 20066
+017.908 Recv DATA 1 62, ID 10065
+017.908 Put packet to network layer seq:1, ID: 10065
+018.136 Send DATA 3 1, ID 20067
+018.197 Recv DATA 2 62, ID 10066
+018.198 Put packet to network layer seq:2, ID: 10066
+018.396 Send DATA 4 2, ID 20068
+018.473 Recv DATA 3 0, ID 10067
+018.473 Put packet to network layer seq:3, ID: 10067
+018.655 Send DATA 5 3, ID 20069
+018.686 Recv DATA 4 0, ID 10068
+018.687 Put packet to network layer seq:4, ID: 10068
+018.915 Send DATA 6 4, ID 20070
+018.962 Recv DATA 5 1, ID 10069
+018.963 Put packet to network layer seq:5, ID: 10069
+019.175 Send DATA 7 5, ID 20071
+019.235 Recv DATA 6 2, ID 10070
+019.236 Put packet to network layer seq:6, ID: 10070
+019.436 Send DATA 8 6, ID 20072
+019.496 Recv DATA 7 3, ID 10071
+019.497 Put packet to network layer seq:7, ID: 10071
+019.498 .... 72 packets received, 7740 bps, 96.75%, Err 0 (0.0e+00)
+019.696 Send DATA 9 7, ID 20073
+019.772 Recv DATA 8 5, ID 10072
+019.772 Put packet to network layer seq:8, ID: 10072
+019.818 TCP Disconnected.
